@@ -1,0 +1,180 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Sean Sullivan
+    tagline: Ansible Automation Architect
+    avatar: me.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: sean.m.sulliv@gmail.com
+    phone: 
+    timezone: America/Indiana/Indianapolis Timezone
+    citizenship:
+    website: sean-m-sullivan.github.io
+    linkedin: seansulliv
+    github: sean-m-ssullivan
+    matrix: "ssulliva:matrix.org"
+    gitlab: Wilken42
+    stack-overflow: 2780735/wilken
+    codewars:
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+    interests:
+      title: Interests
+      info:
+        - item: Automation
+          link:
+
+        - item: Networking
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I am an Automation Specialist, I enjoy the problem solving and sleuthing of figuring out how to get
+      the pieces of automation working together to fufill a goal. Ansible helps me do that.
+
+education:
+    title: Education
+    info:
+      - degree: "B.S.Computer & Information Technology: Networking and Systems Administration"
+        university: Purdue University
+        time: 2013 - 2017
+        details: |
+          This degree provided good understanding across most of IT. 
+          Some Coursework includes:
+            - Advanced Networking and Security
+            - Mail Administratrion including Outlook and Postman
+            - Microsoft Windows operating systems, domains, and active directory.
+            - Setup and administration of storage area networks
+            - Network Principles & Architecture
+            - Linux & Unix
+            - Cloud Computing and Administration
+
+experiences:
+    title: Experiences
+    info:
+      - role: Ansible Automation Consultant
+        time: Jan 2017 - Present
+        company: Red Hat, Remote
+        details: |
+          Ansible Automation Consulting supporting multiple Fortune 500 customers 
+          with their automation needs. Here are a few of the tools and technology 
+          that I worked with creating automation.
+            - Ansible Automation Platform
+              - Ansible
+              - Ansible-lint
+              - Ansible-Navigator
+              - Ansible-builder
+              - Custom Collections
+              - Custom Modules
+              - Controller/Tower
+              - Private Automation Hub
+            - Python
+            - GitHub Actions and Gitlab CI/CD
+            - Python
+            - RHEL, CentOS, Ubuntu
+      - role: Technical Operator
+        time: 2013 - 2017
+        company: Purdue University - ITAP Operations - Lafayette, IN
+        details: |
+          Classroom Administrator helping to maintain over 500 classrooms and 20 Labs
+          across campus.
+            - Supporting Classroom technology support calls and troubleshooting any issues after hours.
+            - Monitor Datacenters and systems in a NOC
+            - Direct support for any issues that arose in labs and classrooms including repair and diagnosis of audio and project issues.
+
+
+projects:
+    title: Projects
+    intro: >
+      Here are some Ansible Collections and Open Source Projects that I help contribute to/or maintain.
+    assignments:
+      - title: Controller Configuration
+        link: https://github.com/redhat-cop/controller_configuration
+        tagline: AAP/AWX configuration as code standarization collection
+      - title: Automation Hub Configuration
+        link: https://github.com/ansible/galaxy_collection
+        tagline: PAH/GalaxyNG configuration as code standarization collection
+      - title: Automation Automation Platform utilities
+        link: https://github.com/redhat-cop/aap_utilities
+        tagline: AAP automation deployment collection
+      - title: Execution Environment utilities
+        link: https://github.com/redhat-cop/ee_utilities
+        tagline: Automating building and publishing of EEs
+
+publications:
+    title: Publications & Presentations
+    intro: |
+      Here are some of the Talks, Blogs, and Books that I have worked on.
+    papers:
+      - title: Demystifying Ansible Automation Platform - 300 Page Book
+        link: https://www.packtpub.com/product/demystifying-ansible-automation-platform/9781803244884
+        authors: Sean Sullivan
+        conference: Packt Publishing September 202
+
+      - title: Ansible Workshop - Configuration as Code for Ansible Automation Platform 2
+        link: https://aap2.demoredhat.com/exercises/ansible_config_as_code/
+        authors: Sean Sullivan and David Danielsson
+        conference: Ansible Fest 2022, Red Hat Summit 2023
+
+      - title: Ansible data manipulation with a Filter
+        link: https://www.ansible.com/blog/ansible-data-manipulation-with-a-filter
+        authors: Sean Sullivan
+        conference: Ansible Blog August 2023
+
+      - title: 4 good habits for building Ansible Automation Platform execution environments
+        link: https://www.redhat.com/architect/ansible-execution-environment-tips
+        authors: Sean Sullivan
+        conference: Red Hat Blog March 2023
+
+      - title: Automate execution environment builds with Ansible Automation Platform
+        link: https://www.redhat.com/architect/ansible-execution-environment-automated-build
+        authors: Sean Sullivan
+        conference: Red Hat Blog March 2023
+
+      - title: Best practices for building EEs
+        link:
+        authors: Sean Sullivan and Anshul Behl
+        conference: Ansible Fest 2022
+
+      - title: Automation controller workflow deployment as code
+        link: https://www.ansible.com/blog/automation-controller-workflow-deployment-as-code
+        authors: Sean Sullivan
+        conference: Ansible Blog November 2021
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Problem solving
+        level: 100%
+
+      - name: Ansible
+        level: 98%
+
+      - name: Yaml
+        level: 98%
+
+      - name: Python
+        level: 95%
+
+      - name: Containers
+        level: 50%
+
+      - name: Kubernetes
+        level: 30%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
