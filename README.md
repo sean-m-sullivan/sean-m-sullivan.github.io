@@ -47,7 +47,7 @@ Here are some of the Talks, Blogs, and Books that I have worked on.
 Demystifying Ansible Automation Platform - 300 Page Book\
 link: https://www.packtpub.com/product/demystifying-ansible-automation-platform/9781803244884 \
 authors: Sean Sullivan\
-where: Packt Publishing September 202
+where: Packt Publishing September 2023
 
 Ansible Workshop - Configuration as Code for Ansible Automation Platform 2\
 link: https://aap2.demoredhat.com/exercises/ansible_config_as_code/ \
